@@ -1,0 +1,13 @@
+{
+  "source": "soc-tier-1-incident-2025-04-18",
+  "host": "WIN-FIN-014",
+  "user": "fin\\jdoe",
+  "process": "powershell.exe",
+  "iocs": [
+    "45.155.205.233",
+    "44d88612fea8a8f36de82e1278abb02f44d88612fea8a8f36de82e1278abb02f",
+    "8b2a2f9e8b2a2f9e8b2a2f9e8b2a2f9e8b2a2f9e8b2a2f9e8b2a2f9e8b2a2f9e",
+    "evil-update.click",
+    "185.220.101.42"
+  ]
+}

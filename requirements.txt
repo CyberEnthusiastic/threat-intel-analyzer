@@ -1,0 +1,1 @@
+# threat-intel-analyzer uses only Python 3.8+ stdlib.

@@ -1,0 +1,43 @@
+{
+  "ipv4": {
+    "45.155.205.233": {
+      "score": 95,
+      "tags": ["c2", "cobalt-strike", "ransomware"],
+      "description": "Cobalt Strike C2; observed in BlackCat / LockBit campaigns."
+    },
+    "185.220.101.42": {
+      "score": 75,
+      "tags": ["tor-exit"],
+      "description": "Tor exit relay."
+    },
+    "104.21.10.10": {
+      "score": 60,
+      "tags": ["c2", "cloudflare-fronting"],
+      "description": "Domain-fronting C2 via shared CDN edge."
+    }
+  },
+  "domain": {
+    "evil-update.click": {
+      "score": 92,
+      "tags": ["fakeupdate", "malware-distribution"],
+      "description": "Fake-update lure delivering AsyncRAT / Lumma."
+    },
+    "auth-microsoft-online.support": {
+      "score": 88,
+      "tags": ["phish", "credential-harvest"],
+      "description": "Microsoft 365 lookalike phishing landing page."
+    }
+  },
+  "sha256": {
+    "44d88612fea8a8f36de82e1278abb02f44d88612fea8a8f36de82e1278abb02f": {
+      "score": 98,
+      "tags": ["malware", "loader", "smokeloader"],
+      "description": "SmokeLoader downloader."
+    },
+    "8b2a2f9e8b2a2f9e8b2a2f9e8b2a2f9e8b2a2f9e8b2a2f9e8b2a2f9e8b2a2f9e": {
+      "score": 96,
+      "tags": ["ransomware", "lockbit"],
+      "description": "LockBit 3.0 ransomware payload (sample)."
+    }
+  }
+}
